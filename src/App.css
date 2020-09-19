@@ -348,11 +348,11 @@ span::after {
 
 @media screen and (max-width: 1024px) {
   .b1{
-    top: 40vh;
+    top: 15vh;
     left: 75vw;
   }
   .b2{
-    top: 40vh;
+    top: 15vh;
     left: 88vw;
   }
   #conty{
@@ -386,11 +386,11 @@ span::after {
   top: 1vh;
 }
 .b1{
-  top: 40vh;
+  
   left: 68vw;
 }
 .b2{
-  top: 40vh;
+  
   left: 85vw;
 }
 #s{
@@ -490,17 +490,23 @@ span::after {
     left:  0;
   }
   .img-resize{
+    height: 100px;
     width: 100px;
   }
   .b1{
-    top: 20vh;
+    top: 10vh;
     left: 70vw;
   }
   .b2{
-    top: 20vh;
+    top: 10vh;
+    
   }
 }
 @media screen and (max-width: 350px) {
+  .img-resize{
+    height: 40px;
+    width: 40px;
+  }
   #magic{
     width: 175px;
   }
