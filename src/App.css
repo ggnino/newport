@@ -472,6 +472,12 @@ span::after {
   .d{
     top: 0;
   }
+  #contact{
+    top: 0;
+  }
+  #conty{
+    top: 0;
+  }
   #cc{
     top: 42vh;
   }
