@@ -10,7 +10,7 @@ h1,h2,h3{
 .d{
   width: 100%;
   height: auto;
-  bottom: 10vh;
+  bottom: 1vh;
   position: relative;
 }
 p{
@@ -91,13 +91,13 @@ p{
   height: auto;
 }
 #main{
-  margin-top: 10vh;
+  margin-top: 7vh;
   width: 100%;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  background-color: black;
 }
 #cc{
   position: absolute;
@@ -346,7 +346,26 @@ span::after {
   to {opacity: 1;}
 }
 
+@media screen and (max-width: 1024px) {
+  .b1{
+    top: 40vh;
+    left: 75vw;
+  }
+  .b2{
+    top: 40vh;
+    left: 88vw;
+  }
+  #conty{
+    top: 0;
+  }
+}
+
 @media screen and (max-width: 768px) {
+  .d{
+    bottom: 0;
+    top: 30vh;
+    margin-bottom: 27vh;
+  }
   .img-resize{
     height: 250px;
   }
@@ -367,30 +386,32 @@ span::after {
   top: 1vh;
 }
 .b1{
-  top: 18vh;
+  top: 40vh;
   left: 68vw;
 }
 .b2{
-  top: 18vh;
+  top: 40vh;
   left: 85vw;
 }
 #s{
-  bottom: 80vh;
+  bottom: 50vh;
   left: 40vw;
 }
 #magic{
-  right: 35vw;
+  right: 45vw;
+  width: 450px;
+  top: 0;
 }
 #main a{
-  top: -15vh;
+  top: 20vh;
   left: 20vw;
 }
 #a{
-  bottom: 77vh;
+  bottom: 47vh;
   left: 60vw;
 }
 #cc{
-  top: 20vh;
+  top: 45vh;
 }
 }
 @media screen and (max-width: 568px) {
@@ -445,6 +466,43 @@ span::after {
   #conty{
     top: 8vh;
     margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .d{
+    top: 0;
+  }
+  #cc{
+    top: 42vh;
+  }
+  #main a{
+    top: 2vh;
+    
+  }
+  #s{
+    bottom: 60vh;
+  }
+  #a{
+    bottom: 55vh;
+  }
+  #magic{
+    top: 30vh;
+    left:  0;
+  }
+  .img-resize{
+    width: 100px;
+  }
+  .b1{
+    top: 20vh;
+    left: 70vw;
+  }
+  .b2{
+    top: 20vh;
+  }
+}
+@media screen and (max-width: 350px) {
+  #magic{
+    width: 175px;
   }
 }
 
