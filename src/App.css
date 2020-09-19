@@ -363,7 +363,7 @@ span::after {
 @media screen and (max-width: 768px) {
   .d{
     bottom: 0;
-    top: 30vh;
+    top: 0;
     margin-bottom: 27vh;
   }
   .img-resize{
@@ -400,7 +400,7 @@ span::after {
 #magic{
   right: 45vw;
   width: 450px;
-  top: 0;
+  top: 20vh;
 }
 #main a{
   top: 20vh;
@@ -502,11 +502,20 @@ span::after {
     
   }
 }
-@media screen and (max-width: 350px) {
-  .img-resize{
-    height: 40px;
-    width: 40px;
+@media screen and (max-width: 380px) {
+  .b1{
+    top: 8vh;
   }
+  .b2{
+    top: 8vh;
+  }
+  #contact{
+    bottom: 0;
+  }
+  #conty{
+    top: 0;
+  }
+  
   #magic{
     width: 175px;
   }
