@@ -1,6 +1,6 @@
 import React from "react";
 import magic from "../imgs/mw.png";
-import glowingBG from '../imgs/GlowingFall.webm';
+import glowingBG from '../imgs/GlowingFall.mp4';
 import compImg from '../imgs/comp.png';
 
 function FrontPage() {
@@ -9,7 +9,7 @@ function FrontPage() {
 			<div className="container-fluid" id="main">
 				<div id="vid-container">
 					<video autoPlay loop muted>
-                        <source type='video/webm' src={glowingBG} />
+                        <source type='video/mp4' src={glowingBG} />
                     </video>
 				</div>
 				<img alt="magic" className="img-fluid" id="magic" src={magic} />
