@@ -347,6 +347,9 @@ span::after {
 }
 
 @media screen and (max-width: 768px) {
+  .img-resize{
+    height: 250px;
+  }
   #toggler{
     left: 90vw;
   }
@@ -360,12 +363,16 @@ span::after {
   top: 9vh;
   margin-bottom: 20px;
 }
+#dc{
+  top: 1vh;
+}
 .b1{
-  top: 10vh;
-  left: 50vw;
+  top: 18vh;
+  left: 68vw;
 }
 .b2{
-  top: 10vh;
+  top: 18vh;
+  left: 85vw;
 }
 #s{
   bottom: 80vh;
@@ -387,33 +394,48 @@ span::after {
 }
 }
 @media screen and (max-width: 568px) {
+  
+  #vid-container{
+    height: 78vh;
+  }
+  .img-resize{
+    height: 150px;
+  }
   p{
     font-size: 2.2vw;
   }
   .btn{
-    width: 50px;
-    font-size: 2vw;
+    width: 40px;
+    font-size: 1.8vw;
+    padding: 2px;
+  }
+  #cc{
+    top: 30vh;
   }
   #magic{
     right: 33vw;
-    top: 20vh;
+    top: 30vh;
     width: 250px;
   }
   #main a{
-    top: -23vh;
+    top: -14vh;
     padding: 2px;
+  }
+  #s{
+    bottom: 70vh;
   }
   #a{
     font-size: 3vw;
+    bottom: 67vh;
   }
   .b1{
-    top: 10vh;
-    left: 60vw;
+    top: 15vh;
+    left: 75vw;
     padding: 2px;
   }
   .b2{
-    top: 10vh;
-    left: 80vw;
+    top: 15vh;
+    left: 85vw;
     padding: 2px;
   }
 
@@ -421,7 +443,7 @@ span::after {
     height: 78vh;
   }
   #conty{
-    top: 10vh;
+    top: 8vh;
     margin-bottom: 50px;
   }
 }
